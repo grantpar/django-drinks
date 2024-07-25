@@ -1,0 +1,8 @@
+- django-admin startproject drinks
+- cd drinks
+- python3 manage.py runserver
+- python3 manage.py migrate
+
+after editing models
+- python3 manage.py makemigrations drinks
+- python3 manage.py migrate
